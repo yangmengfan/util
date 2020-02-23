@@ -28,6 +28,7 @@ public class ExcelUtil {
         Workbook workbook=Workbook.getWorkbook(new File("test.xls"));
         //2:获取第一个工作表sheet
         Sheet sheet=workbook.getSheet(0);
+        System.out.println("测试");
         Label cc = new Label(0, 0, "测试");
 
 
